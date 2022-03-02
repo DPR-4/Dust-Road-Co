@@ -627,7 +627,7 @@ header.sticky .navigation li a{
       position: relative;
       width: 40px;
       height: 40px;
-      background: url(images/menu_bar.png);
+      background: url(menu_bar.png);
       background-size: 30px;
       background-repeat: no-repeat;
       background-position: center;
@@ -636,7 +636,7 @@ header.sticky .navigation li a{
   }
 
   .menuToggle.active{
-      background: url(images/334-3343695_x-marks-the-spot-clipart.png);
+      background: url(334-3343695_x-marks-the-spot-clipart.png);
       background-size: 30px;
       background-repeat: no-repeat;
       background-position: center;
