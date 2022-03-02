@@ -576,3 +576,155 @@ form {
     background-size: cover ;
     background-color: #E8E8E8;
   }
+
+
+
+
+
+  
+header .navigation{
+  position: relative;
+  display: flex;
+  
+}
+header .navigation li{
+  list-style: none;
+  margin-left: 30px;
+
+}
+header .navigation li a{
+  list-style: none;
+  color: #fff;
+  font-weight: 300;
+
+}
+header .navigation li a:hover{
+  color: #ff0157;
+
+}
+header.sticky .navigation li a{
+  color: #111;
+}
+
+
+  /* media querry start from here!@! DPR-4*/
+
+  @media (max-width:991px){
+    header,
+    header .sticky{
+        padding: 10px 20px;
+
+    }
+
+    header .navigation{
+        display: none;
+    }
+
+
+
+
+    .menuToggle{
+      position: relative;
+      width: 40px;
+      height: 40px;
+      background: url(images/menu_bar.png);
+      background-size: 30px;
+      background-repeat: no-repeat;
+      background-position: center;
+      cursor: pointer;
+
+  }
+
+  .menuToggle.active{
+      background: url(images/334-3343695_x-marks-the-spot-clipart.png);
+      background-size: 30px;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+
+  .menuToggle{
+      /* filter: invert(100%); */
+
+  }
+
+
+  header .navigation.active{
+    width: 100%;
+    height: calc(100% - 68px);
+    position: fixed;
+    top: 68px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+
+}
+  header .navigation li{
+    margin-left: 0;
+    
+}
+  header .navigation li a{
+    color: #111;
+    font-size: 1.6em;
+    /* font-weight: 300; */
+    
+}
+
+
+.info {
+  /* transform: translateY(-200%);
+  color: white; */
+  font-size: 35px;
+  /* text-align: center;
+  margin-left: 5%; */
+}
+
+.serv-list li{
+  margin-bottom: 2px;
+}
+.head-1,
+  .ex,
+  .follow {
+    font-size: 10px;
+    padding-bottom: 0.5%;
+  }
+
+  .explore {
+    
+    /* margin-left: 40%; */
+    transform: translateY(-120%);
+    /* transform: translateX(-150%); */
+    
+  }
+  .news {
+    letter-spacing: 1px;
+    font-size: 16px;
+  }
+  .sub {
+    font-size: 13px;
+  }
+
+  .letter {
+    width: 70px;
+    height: 30px;
+  }
+
+  .emailbox {
+    width: 250px;
+    height: 30px;
+    font-size: 11px;
+    /* padding-left: 20px; */
+  }
+
+  .social {
+    /* padding-top: 0px;
+    margin-top: 0px; */
+    /* margin-left: 80%; */
+    transform: translateY(-550%);
+    /* transform: translateX(-30%); */
+    /* padding-bottom: 0px;
+    margin-bottom: 0px; */
+  }
+}
